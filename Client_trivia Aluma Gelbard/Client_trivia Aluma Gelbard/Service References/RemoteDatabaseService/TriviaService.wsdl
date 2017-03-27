@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TriviaService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/triviaService/TriviaService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/triviaService/TriviaService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/triviaService/TriviaService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/triviaService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITriviaService_SaveScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveScore" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_SaveScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_DeleteScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteScore" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_DeleteScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_UpdateScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateScore" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_UpdateScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_SelectAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectAll" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_SelectAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_GetUserScore_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserScore" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_GetUserScore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserScoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_GetTop10Score_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTop10Score" />
+  </wsdl:message>
+  <wsdl:message name="ITriviaService_GetTop10Score_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTop10ScoreResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITriviaService">
+    <wsdl:operation name="SaveScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITriviaService/SaveScore" message="tns:ITriviaService_SaveScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITriviaService/SaveScoreResponse" message="tns:ITriviaService_SaveScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITriviaService/DeleteScore" message="tns:ITriviaService_DeleteScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITriviaService/DeleteScoreResponse" message="tns:ITriviaService_DeleteScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITriviaService/UpdateScore" message="tns:ITriviaService_UpdateScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITriviaService/UpdateScoreResponse" message="tns:ITriviaService_UpdateScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITriviaService/SelectAll" message="tns:ITriviaService_SelectAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITriviaService/SelectAllResponse" message="tns:ITriviaService_SelectAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserScore">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITriviaService/GetUserScore" message="tns:ITriviaService_GetUserScore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITriviaService/GetUserScoreResponse" message="tns:ITriviaService_GetUserScore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTop10Score">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITriviaService/GetTop10Score" message="tns:ITriviaService_GetTop10Score_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITriviaService/GetTop10ScoreResponse" message="tns:ITriviaService_GetTop10Score_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITriviaService" type="tns:ITriviaService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveScore">
+      <soap:operation soapAction="http://tempuri.org/ITriviaService/SaveScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteScore">
+      <soap:operation soapAction="http://tempuri.org/ITriviaService/DeleteScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateScore">
+      <soap:operation soapAction="http://tempuri.org/ITriviaService/UpdateScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectAll">
+      <soap:operation soapAction="http://tempuri.org/ITriviaService/SelectAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserScore">
+      <soap:operation soapAction="http://tempuri.org/ITriviaService/GetUserScore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTop10Score">
+      <soap:operation soapAction="http://tempuri.org/ITriviaService/GetTop10Score" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TriviaService">
+    <wsdl:port name="BasicHttpBinding_ITriviaService" binding="tns:BasicHttpBinding_ITriviaService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/triviaService/TriviaService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

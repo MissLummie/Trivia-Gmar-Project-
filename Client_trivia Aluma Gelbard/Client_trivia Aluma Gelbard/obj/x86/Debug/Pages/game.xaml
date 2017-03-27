@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Client_trivia_Aluma_Gelbard.Pages.game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Client_trivia_Aluma_Gelbard.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' MinWidth="1920" MaxWidth="1920" Width="1920" MinHeight="1080" MaxHeight="1080" Height="1080" VerticalAlignment="Center" HorizontalAlignment="Center"                     >
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Pictures/gameplay.png"/>
+        </Grid.Background>
+
+        <TextBlock x:ConnectionId='2' x:Name="question" HorizontalAlignment="Left" Margin="187,104,0,0" TextWrapping="Wrap" Text="Question" VerticalAlignment="Top" Height="99" Width="1545" FontFamily="Microsoft Sans Serif" FontSize="45" Foreground="#FF42628B" TextAlignment="Center"/>
+
+
+        <TextBlock x:ConnectionId='3' x:Name="answer1" HorizontalAlignment="Left" Margin="187,299,0,0" TextWrapping="Wrap" Text="Answer 1" VerticalAlignment="Top" Height="99" Width="1545" FontFamily="Microsoft Sans Serif" FontSize="35" Foreground="WhiteSmoke" TextAlignment="Center"                        />
+        <TextBlock x:ConnectionId='4' x:Name="answer2" HorizontalAlignment="Left" Margin="187,412,0,0" TextWrapping="Wrap" Text="Answer 2" VerticalAlignment="Top" Height="99" Width="1545" FontFamily="Microsoft Sans Serif" FontSize="35" Foreground="WhiteSmoke" TextAlignment="Center"                        />
+        <TextBlock x:ConnectionId='5' x:Name="answer3" HorizontalAlignment="Left" Margin="187,531,0,0" TextWrapping="Wrap" Text="Answer 3" VerticalAlignment="Top" Height="99" Width="1545" FontFamily="Microsoft Sans Serif" FontSize="35" Foreground="WhiteSmoke" TextAlignment="Center"                        />
+        <TextBlock x:ConnectionId='6' x:Name="answer4" HorizontalAlignment="Left" Margin="187,646,0,0" TextWrapping="Wrap" Text="Answer 4" VerticalAlignment="Top" Height="99" Width="1545" FontFamily="Microsoft Sans Serif" FontSize="35" Foreground="WhiteSmoke" TextAlignment="Center"                        />
+
+        <TextBlock x:ConnectionId='7' x:Name="timer" HorizontalAlignment="Left" Margin="269,903,0,0" TextWrapping="Wrap" Text="5 sec" VerticalAlignment="Top" Height="29" Width="127" FontFamily="Microsoft Sans Serif" FontSize="20" Foreground="#FF42628B" TextAlignment="Center"/>
+        <TextBlock x:ConnectionId='8' x:Name="amount" HorizontalAlignment="Left" Margin="508,882,0,0" TextWrapping="Wrap" Text="1 / 5" VerticalAlignment="Top" Width="334" Height="85" FontFamily="Microsoft Sans Serif" FontSize="35" Foreground="#FF42628B" TextAlignment="Center" FontWeight="Bold"/>
+
+
+
+    </Grid>
+</Page>
+

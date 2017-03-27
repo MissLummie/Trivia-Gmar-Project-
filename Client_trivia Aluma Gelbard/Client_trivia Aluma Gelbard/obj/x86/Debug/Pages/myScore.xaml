@@ -1,0 +1,28 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Client_trivia_Aluma_Gelbard.Pages.myScore"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Client_trivia_Aluma_Gelbard.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                     >
+
+    <Grid MinWidth="1920" MaxWidth="1920" Width="1920" MinHeight="1080" MaxHeight="1080" Height="1080" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Pictures/mystatus.png"/>
+        </Grid.Background>
+
+        <TextBlock x:ConnectionId='2' x:Name="score_tb" HorizontalAlignment="Left" Margin="70,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="120" Width="1787" Foreground="#FF004C9A" TextAlignment="Center" FontSize="35"/>
+        <TextBlock x:ConnectionId='3' x:Name="highscore_tb" HorizontalAlignment="Left" Margin="77,449,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="120" Width="1787" Foreground="#FF004C9A" TextAlignment="Center" FontSize="35"/>
+        <TextBlock x:ConnectionId='4' x:Name="lategame_tb" HorizontalAlignment="Left" Margin="77,574,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="120" Width="1787" Foreground="#FF004C9A" TextAlignment="Center" FontSize="35"/>
+        <TextBlock x:ConnectionId='5' x:Name="fastest_tb" HorizontalAlignment="Left" Margin="77,705,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="120" Width="1787" Foreground="#FF004C9A" TextAlignment="Center" FontSize="35"/>
+        <TextBlock x:ConnectionId='6' x:Name="strike_tb" HorizontalAlignment="Left" Margin="77,843,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="120" Width="1787" Foreground="#FF004C9A" TextAlignment="Center" FontSize="35"/>
+
+        <Button x:ConnectionId='7' x:Name="back" Content="Back" HorizontalAlignment="Left" Margin="1752,46,0,0" VerticalAlignment="Top" Width="112" Foreground="White" Height="52"                   >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Pictures/big.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>
+

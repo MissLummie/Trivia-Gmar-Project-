@@ -1,0 +1,6 @@
+d:\users\user\documents\visual studio 2015\Projects\triviaService\triviaService\bin\Debug\triviaService.dll.config
+d:\users\user\documents\visual studio 2015\Projects\triviaService\triviaService\bin\Debug\triviaService.dll
+d:\users\user\documents\visual studio 2015\Projects\triviaService\triviaService\bin\Debug\triviaService.pdb
+d:\users\user\documents\visual studio 2015\Projects\triviaService\triviaService\obj\Debug\triviaService.csprojResolveAssemblyReference.cache
+d:\users\user\documents\visual studio 2015\Projects\triviaService\triviaService\obj\Debug\triviaService.dll
+d:\users\user\documents\visual studio 2015\Projects\triviaService\triviaService\obj\Debug\triviaService.pdb

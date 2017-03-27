@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client_trivia_Aluma_Gelbard.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAIAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.MainPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAIAABCAABACAAAgAAAEA=</HashCode>
+      <FileName>Pages\MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.GameManager" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAEIAgAAAAAAAIAQAQACAAAAAAAgBAAAEIEAI=</HashCode>
+      <FileName>Classes\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.Initial" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Initial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.Question" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAQEgAAAAAABAAUBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.QuestionManager" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAgAAAAAAAEAAEAAAAAgAAAQAAAAAA=</HashCode>
+      <FileName>Classes\QuestionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.User" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAgAAAAE=</HashCode>
+      <FileName>Classes\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.UserManager" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAEAAACEAAAAgAAAAAAAEAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Classes\UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Classes.Validator" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Validator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.addQues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Pages\addQues.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.createroom" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\createroom.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.finish" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\finish.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAAAhAAAAAAAAAEAAAAEAAAAAAACgACAAAAAAAFA=</HashCode>
+      <FileName>Pages\game.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.RandomExtensions" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Pages\game.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.help" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAABAAAAAAAAQgBAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Pages\help.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.myScore" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\myScore.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.signup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\signup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client_trivia_Aluma_Gelbard.Pages.top10" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAgggAAAQAAAABAAAAA=</HashCode>
+      <FileName>Pages\top10.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
